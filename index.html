@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#mani{
+    margin-top: 20px;
+color:brown;
+border-style: solid;
+width: 100px;
+
+}
+img{
+    margin-top: 20px;
+    transition: 2s all;
+}
+
+#mani2{
+    margin-top: 20px;
+    color:brown;
+    border-style: solid;
+    width: 100px;
+    
+    }
+#mani:hover+img{
+    transform: rotate(190deg);
+}
+
+#mani2:hover+img{
+    transform: rotate(360deg);
+}
+
+    
+
+    </style>
+</head>
+<body>
+    <div id="mani">Rotate190deg</div>
+    <img src="https://i.ytimg.com/vi/VL1x_LLhn-g/maxresdefault.jpg"width=350 height="200">
+     <div id="mani2">Rotate360deg</div> 
+     <img src="https://th.bing.com/th/id/OIP.r2QJj9Qdk-UlhExkUZC3SwHaE7?w=280&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"width=350 height="200">
+</body>
+</html>
